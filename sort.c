@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
-#define size 100
+#define SIZE 100
 void main()
 {
-    int a[size],i,j,n,temp=0;
+    int a[SIZE],i,j,n,temp=0;
     printf("Enter number of elements to sort:");
     scanf("%d",&n);
     printf("enter the elements:");
