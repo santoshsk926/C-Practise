@@ -3,15 +3,15 @@
 #define size 100
 void main()
 {
-    int a[10],i,j,n,temp=0;
+    int a[size],i,j,n,temp=0;
     printf("Enter number of elements to sort:");
     scanf("%d",&n);
     printf("enter the elements:");
     for(i=0;i<n;i++)
         scanf("%d",&a[n]);
-    for(i=0;i<size;i++)
+    for(i=0;i<n;i++)
     {
-        for(j=i+1;j<size;j++)
+        for(j=i+1;j<n;j++)
         {
             if(a[i]<a[i+1])
              {
